@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5258547833051586428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4296657650771964950}
+  - component: {fileID: 8913490319725293389}
+  - component: {fileID: 7339782362935637762}
+  - component: {fileID: 3784548712628587354}
+  - component: {fileID: 3968257724896802855}
+  - component: {fileID: 6516364487727558581}
+  - component: {fileID: 5973494389009103428}
+  m_Layer: 0
+  m_Name: CorruptedGuardian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4296657650771964950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258547833051586428}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.2, y: 3.2, z: 2.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8913490319725293389
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258547833051586428}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &7339782362935637762
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258547833051586428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &3784548712628587354
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258547833051586428}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 83775393dd4bd4f59b83ea62c2493b4b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3968257724896802855
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258547833051586428}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6516364487727558581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258547833051586428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28135847228cc473fbbeb5b1ffa9ae2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoDungeon.Bosses.BossHealth
+  maxHealth: 480
+  hitFlashColor: {r: 1, g: 0.45, b: 0.45, a: 1}
+  hitFlashDuration: 0.08
+--- !u!114 &5973494389009103428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258547833051586428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2b2413ec72240d2b32381b9669b9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoDungeon.Bosses.BossController
+  moveSpeed: 3.4
+  turnSpeed: 10
+  stopDistance: 2.2
+  healthScalePerDifficulty: 0.06
+  moveSpeedScalePerDifficulty: 0.02
+  phaseTwoThreshold: 0.7
+  phaseThreeThreshold: 0.4
+  finalPhaseThreshold: 0.15
+  vulnerableWindowDuration: 1.2
+  projectilePrefab: {fileID: 0}
+  projectilePrefabName: CorruptedGuardianProjectile
+  projectileDamage: 14
+  projectileSpeed: 19
+  projectileLifetime: 3
+  projectileScale: 0.38
+  projectileColor: {r: 0.85, g: 0.25, b: 0.95, a: 1}
+  projectileSingleCooldown: 3.2
+  projectileTripleCooldown: 5.4
+  projectileWindupDuration: 0.28
+  projectileTripleSpreadAngle: 16
+  meleeAttackRange: 3.6
+  slamRadius: 4.8
+  slamDamage: 24
+  slamCooldown: 2.8
+  slamWindupDuration: 0.85
+  slamRecoveryDuration: 0.32
+  slamTelegraphColor: {r: 0.9, g: 0.18, b: 0.18, a: 0.82}
+  dashDamage: 20
+  dashDistance: 8
+  dashDuration: 0.4
+  dashCooldown: 4.4
+  dashWindupDuration: 0.2
+  dashHitRadius: 1.4
+  areaCooldown: 6.6
+  hazardCount: 2
+  hazardRadius: 2.2
+  hazardDamage: 11
+  hazardTickInterval: 0.55
+  hazardDuration: 5
+  hazardWarningDuration: 0.65
+  hazardWarningColor: {r: 1, g: 0.25, b: 0.2, a: 0.8}
+  hazardColor: {r: 0.6, g: 0.05, b: 0.08, a: 0.85}
+  minionPrefab: {fileID: 1333771442106559789, guid: 11754685ab5e442dc9df6a75dcd573b6, type: 3}
+  minionsPerWave: 5
+  minionCooldown: 8
+  minionSpawnRadius: 4.5
+  minionMaxHealth: 1
+  minionMoveSpeed: 7.4
+  minionDamage: 4
+  minionDetectionRange: 20
+  minionAttackRange: 1.25
+  minionAttackCooldown: 0.7
+  minionScoreReward: 4
+  minionScale: 0.72
+  minionColor: {r: 0.76, g: 0.18, b: 0.62, a: 1}
