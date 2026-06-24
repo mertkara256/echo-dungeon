@@ -53,11 +53,6 @@ Echo Dungeon is a room-based action dungeon game developed in Unity. The player 
 | Pause | `Esc` |
 | Restart | `R` |
 
-Debug shortcuts:
-
-- `K`: advances the day
-- `L`: grants the Echo Barrage ability
-
 ## Project Structure
 
 ```text

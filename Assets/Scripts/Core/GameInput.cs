@@ -80,16 +80,6 @@ namespace EchoDungeon.Core
             return WasKeyPressed(KeyBinding.Restart);
         }
 
-        public static bool WasDebugAdvanceDayPressed()
-        {
-            return WasKeyPressed(KeyBinding.DebugAdvanceDay);
-        }
-
-        public static bool WasDebugGrantEchoBarragePressed()
-        {
-            return WasKeyPressed(KeyBinding.DebugGrantEchoBarrage);
-        }
-
         public static bool WasPotionPressed()
         {
             return WasKeyPressed(KeyBinding.Potion);
@@ -173,10 +163,6 @@ namespace EchoDungeon.Core
                     return keyboard.digit3Key.wasPressedThisFrame || keyboard.numpad3Key.wasPressedThisFrame;
                 case KeyBinding.Dash:
                     return keyboard.leftShiftKey.wasPressedThisFrame || keyboard.rightShiftKey.wasPressedThisFrame;
-                case KeyBinding.DebugAdvanceDay:
-                    return keyboard.kKey.wasPressedThisFrame;
-                case KeyBinding.DebugGrantEchoBarrage:
-                    return keyboard.lKey.wasPressedThisFrame;
                 case KeyBinding.ChoiceOne:
                     return keyboard.digit1Key.wasPressedThisFrame || keyboard.numpad1Key.wasPressedThisFrame;
                 case KeyBinding.ChoiceTwo:
@@ -198,8 +184,6 @@ namespace EchoDungeon.Core
             StasisSpell,
             PoisonSpell,
             Dash,
-            DebugAdvanceDay,
-            DebugGrantEchoBarrage,
             ChoiceOne,
             ChoiceTwo,
             ChoiceThree

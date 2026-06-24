@@ -16,9 +16,7 @@ namespace EchoDungeon.Core
         [SerializeField] private float dayTransitionResetDelay = 0.45f;
         [SerializeField] private float dayTransitionResumeDelay = 1.15f;
 
-        private PlayerStats playerStats;
         private PlayerHealth playerHealth;
-        private PlayerInventory playerInventory;
         private RoomManager roomManager;
 
         private GameState state = GameState.Booting;
@@ -123,9 +121,7 @@ namespace EchoDungeon.Core
             PlayerInventory inventory,
             RoomManager rooms)
         {
-            playerStats = stats;
             playerHealth = health;
-            playerInventory = inventory;
             roomManager = rooms;
         }
 
@@ -181,33 +177,6 @@ namespace EchoDungeon.Core
                 Scene activeScene = SceneManager.GetActiveScene();
                 SceneManager.LoadScene(activeScene.buildIndex);
             }
-
-            if (GameInput.WasDebugAdvanceDayPressed())
-            {
-                TryStartNextDayTransition();
-            }
-
-            if (GameInput.WasDebugGrantEchoBarragePressed())
-            {
-                GrantDebugEchoBarrage();
-            }
-        }
-
-        private void GrantDebugEchoBarrage()
-        {
-            if (playerStats == null)
-            {
-                return;
-            }
-
-            PlayerCombat combat = playerStats.GetComponent<PlayerCombat>();
-            if (combat == null)
-            {
-                return;
-            }
-
-            combat.EnableEchoBarrage();
-            GameEvents.RaiseNotification("Debug: Echo Barrage enabled");
         }
 
         private void HandlePlayerDied()
