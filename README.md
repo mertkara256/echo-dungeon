@@ -66,7 +66,6 @@ Assets/
   Settings/         URP and render settings
 Packages/           Unity package manifest and lock files
 ProjectSettings/    Unity project settings
-docs/screenshots/   Gameplay screenshots
 ```
 
 ## Key Script Folders
