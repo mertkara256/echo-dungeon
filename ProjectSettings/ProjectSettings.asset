@@ -864,14 +864,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: SE330 Project
+  metroPackageName: Echo Dungeon
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: SE330 Project
+  metroApplicationDescription: Echo Dungeon
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -945,7 +945,7 @@ PlayerSettings:
   cloudProjectId: 50e2315f-feba-4396-b69a-a5330f0a64b3
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: SE330 Project
+  projectName: Echo Dungeon
   organizationId: mertkara256
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
