@@ -10,9 +10,23 @@ Echo Dungeon is a room-based action dungeon game developed in Unity. The player 
 - Corrupted Guardian boss encounter
 - Coin, shop, locked chest, and upgrade station systems
 - Day progression and run state management
-- Stasis and poison area spells
+- Stop and Poison area spells
 - HUD, health bar, spell cooldown, and room progress UI
 - Universal Render Pipeline support
+
+## Screenshots
+
+| Main menu | Combat room |
+| --- | --- |
+| ![Main menu](docs/screenshots/01-main-menu.png) | ![Combat room](docs/screenshots/02-combat-room.png) |
+
+| Treasure room shop | Perk draft |
+| --- | --- |
+| ![Treasure room shop](docs/screenshots/03-treasure-shop.png) | ![Perk draft](docs/screenshots/04-perk-draft.png) |
+
+| Boss room |
+| --- |
+| ![Boss room](docs/screenshots/05-boss-room.png) |
 
 ## Technology
 
@@ -66,7 +80,7 @@ Assets/
   Settings/         URP and render settings
 Packages/           Unity package manifest and lock files
 ProjectSettings/    Unity project settings
-ReportOutput/       SE330 report outputs and screenshots
+docs/screenshots/   Gameplay screenshots
 ```
 
 ## Key Script Folders
@@ -81,7 +95,3 @@ ReportOutput/       SE330 report outputs and screenshots
 ## Git Notes
 
 This repository tracks only the source project files. Unity-generated local files and folders such as `Library/`, `Temp/`, `Logs/`, `UserSettings/`, `.plastic/`, `.csproj`, and `.sln` are excluded through `.gitignore`.
-
-## Report
-
-SE330 submission outputs are stored in the `ReportOutput/` folder. This folder contains the project report, rendered PDF, screenshots, and package/assets submission archive.
