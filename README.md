@@ -14,20 +14,6 @@ Echo Dungeon is a room-based action dungeon game developed in Unity. The player 
 - HUD, health bar, spell cooldown, and room progress UI
 - Universal Render Pipeline support
 
-## Screenshots
-
-| Main menu | Combat room |
-| --- | --- |
-| ![Main menu](docs/screenshots/01-main-menu.png) | ![Combat room](docs/screenshots/02-combat-room.png) |
-
-| Treasure room shop | Perk draft |
-| --- | --- |
-| ![Treasure room shop](docs/screenshots/03-treasure-shop.png) | ![Perk draft](docs/screenshots/04-perk-draft.png) |
-
-| Boss room |
-| --- |
-| ![Boss room](docs/screenshots/05-boss-room.png) |
-
 ## Technology
 
 - Unity `6000.3.10f1`
@@ -43,7 +29,7 @@ Echo Dungeon is a room-based action dungeon game developed in Unity. The player 
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/mertkara256/Echo-Dungeon.git
+   git clone https://github.com/mertkara256/echo-dungeon.git
    ```
 
 3. Open the project folder in Unity Hub using `Add project from disk`.
